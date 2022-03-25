@@ -1,0 +1,58 @@
+{
+  "values": [
+    {
+      "id": 1,
+      "choiceA": "",
+      "choiceB": "Calculus",
+      "choiceC": "English"
+    },
+    {
+      "id": 2,
+      "choiceA": "Calculus",
+      "choiceB": "",
+      "choiceC": "Spanish"
+    },
+    {
+      "id": 3,
+      "choiceA": "Calculus",
+      "choiceB": "",
+      "choiceC": ""
+    },
+    {
+      "id": 4,
+      "choiceA": "",
+      "choiceB": "Calculus",
+      "choiceC": ""
+    },
+    {
+      "id": 5,
+      "choiceA": "",
+      "choiceB": "",
+      "choiceC": "Calculus"
+    },
+    {
+      "id": 6,
+      "choiceA": "Calculus",
+      "choiceB": "Spanish",
+      "choiceC": ""
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    }
+  ]
+}
