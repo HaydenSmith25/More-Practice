@@ -42,6 +42,17 @@ function App() {
     },
   ];
 
+  ////THOUGHTS/////
+
+  //Think my issue for POST of the form is happening here. Want to say my body value that I have passed in is not the right one.
+  //Think if I wanted to get the exact course that was typed into the input box upon submission.
+  //I'd have to some how get access to this obj { ...values, [e.target.name]: e.target.value } OR
+  //This value from mapping over my inputs value={values[input.name]}
+  //Tried a new approach with useState here, but begining to think I might've over engineered a bit
+  //Just didn't want the repeating useState's for each choice input, but that simpler approach might've left me with less errors.
+  //Also, using a json-server with hardcoded dummy data was relatively new for me as well.
+  //Thought was a quicker solution than initializing a new DB from scratch or using the Formik library.
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
