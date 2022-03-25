@@ -20,7 +20,9 @@ CREATE TABLE countries (
     Alias gov debt as avg gov debt
     Alias gdp as top year over 40k
     ROUND avg gov debt/top years over 40k
-    Have to end the statement with group by because of the mathmatical operations    */
+    Have to end the statement with group by because of the mathmatical operations 
+    Went with Top 60 Percent function since I was given the data before hand. Could also use LIMIT 3 ASC/DESC to get the top 3 avg gov debts.
+    Query might not be as sound because of this, if anyother row of data was added it might break becuase 60% of 6 is 3.6.   */
 
 /*Please write the SQL statement to show the top 3 average government debts in percent of the gdp_per_capita
 (govt_debt / gdp_per_capita) for those countries of which gdp_per_capita was over 40,000 dollars in every year in
